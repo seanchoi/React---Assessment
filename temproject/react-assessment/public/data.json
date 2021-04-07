@@ -1,0 +1,51 @@
+{
+    "formType": "Personal information",
+    "data": {
+        "fields": [
+            {
+                "name": "contact.email",
+                "type": "text",
+                "label": "Name of tax office",
+                "description": "Enter your email.",
+                "displayOrder": 3
+            },
+            {
+                "name": "address.street",
+                "type": "text",
+                "label": "Street address",
+                "description": "Enter your street address.",
+                "displayOrder": 4
+            },
+            {
+                "name": "name.last",
+                "type": "text",
+                "label": "Last name",
+                "description": "Enter your last name.",
+                "displayOrder": 2
+            },
+            {
+                "name": "name.first",
+                "type": "text",
+                "label": "First name",
+                "description": "Enter your first name.",
+                "displayOrder": 1
+            },
+            {
+                "name": "address.state",
+                "type": "select",
+                "label": "State of residence",
+                "description": "Enter your state of residence.",
+                "displayOrder": 5,
+                "options": ["Alabama","Alaska","American Samoa","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","District of Columbia","Federated States of Micronesia","Florida","Georgia","Guam","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Marshall Islands","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Carolina","North Dakota","Northern Mariana Islands","Ohio","Oklahoma","Oregon","Palau","Pennsylvania","Puerto Rico","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virgin Island","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]
+            },
+            {
+                "name": "gender",
+                "type": "radio",
+                "label": "Gender",
+                "description": "Enter your gender",
+                "displayOrder": 6,
+                "options": ["Male", "Female"]
+            }
+        ]
+    }
+}
